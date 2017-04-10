@@ -53,7 +53,7 @@ class App extends Component {
     ]});
   }
 
-  componentWillMount() {
+  componentWillMount(){
     this.getProjects();
     this.getTodos();
   }
